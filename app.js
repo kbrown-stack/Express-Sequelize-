@@ -4,7 +4,6 @@ const bookRouter = require("./routes/books")
 require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
-// console.log("PORT from .env:", process.env.PORT);
 
 const app = express();
 
